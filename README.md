@@ -9,9 +9,6 @@
 </code></pre>
 
 # Install
-composer create-project --prefer-dist skschool/skphp skphp
-
-# Install
 <pre><code>
 git clone https://github.com/skschoo1/skphp
 cd skphp
@@ -25,6 +22,11 @@ cd skphp-2.0
 <p>Next：</p>
 <pre><code>
 composer update
+</code></pre>
+
+# Shortcut
+<pre><code>
+composer create-project --prefer-dist skschool/skphp skphp
 </code></pre>
 
 # License
