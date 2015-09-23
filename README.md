@@ -1,12 +1,12 @@
 # The SKPHP Framework.
-<code>
+<pre><code>
             __               __           
    _____   / /__   ____     / /_     ____ 
   / ___/  / //_/  / __ \   / __ \   / __ \
  (__  )  / ,<    / /_/ /  / / / /  / /_/ /
 /____/  /_/|_|  / .___/  /_/ /_/  / .___/ 
                /_/               /_/                 
-</code>
+</code></pre>
 
 # Install
 composer create-project --prefer-dist skschool/skphp skphp
