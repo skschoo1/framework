@@ -1,4 +1,4 @@
-# SKPHP Framework
+# The SKPHP Framework.
 
 # License
 
