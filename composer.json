@@ -1,0 +1,20 @@
+{
+    "name": "skschool/framework",
+    "description": "The skphp Framework.",
+    "homepage": "http://skphp.sk-school.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "seven",
+            "email": "200641838@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-4": { "Skschool\\": "src/" }
+    }   
+}
