@@ -179,7 +179,7 @@ class Routing
     	$parts = explode('/',self::$callbacks[$pos]);
     	$last = end($parts);
     	$segments = explode('@',$last);
-    	$objName = '\App\Controllers\\'.$segments[0];
+    	$objName = '\App\controllers\\'.$segments[0];
     	$controller = new $objName();
     	if(gettype($controller) != 'object')  trigger_error('Not Find Controller '.$segments[0]);
     	if(!method_exists($controller,$segments[1]))  trigger_error('Undefined Function '.$segments[1].' @ '.$segments[0]);
