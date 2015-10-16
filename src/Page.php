@@ -18,7 +18,6 @@
  // | must first learn To face the loneliness,who can understand.
  // +-----------------------------------------------------------------*/
 namespace Skschool;
-use Skschool\Page;
 
 class Page{
 	public $firstRow; // 起始行数
