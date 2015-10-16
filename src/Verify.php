@@ -18,7 +18,6 @@
  // | must first learn To face the loneliness,who can understand.
  // +-----------------------------------------------------------------*/
 namespace Skschool;
-use Skschool\Verify;
 
 class Verify {
 	protected $config =	array(
