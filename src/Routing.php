@@ -103,6 +103,7 @@ class Routing
     	}
     	if ($uri == '/' || empty($uri)) return '/'; 
     	$uri = parse_url($uri, PHP_URL_PATH);
+    	if (substr($uri, 0, 1) != '/' && !empty(substr($uri, 0, 1))) $uri = '/'.$uri; 
     	return str_replace(array('//', '../'), '/', trim($uri));
     }
     
